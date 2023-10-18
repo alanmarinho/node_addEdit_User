@@ -1,0 +1,22 @@
+<table class="table table-striped table-sm">
+  <thead>
+    <tr>
+      <th>Id</th>
+      <th>Usuário</th>
+      <th>Idade</th>
+      <th class="text-right p-2">Ações</th>
+    </tr>
+  </thead>
+  <tbody>
+    {{#each users}}
+    <tr>
+      <td>{{this.id}}</td>
+      <td>{{this.name}}</td>
+      <td>{{this.age}}</td>
+      <td class="text-right p-2">
+        <a href="/editUser/{{this.id}}" class="btn btn-primary btn-sm">Editar</a>
+        <a href="/deleteUser/{{this.id}}" class="btn btn-danger btn-sm">Excluir</a>
+      </td>
+    {{/each}}
+  </tbody>
+</table>

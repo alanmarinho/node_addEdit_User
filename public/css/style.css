@@ -1,0 +1,23 @@
+body{
+  /* background-color: aquamarine; */
+  width: 100vh;
+  height: 100vh;
+}
+
+.custom_a{
+  color: white;
+  margin: 5px;
+}
+.custom_a:hover{
+  background-color: aliceblue;
+  border-radius: 10px;
+  /* padding: 5px; */
+  text-align: center;
+  color: black;
+}
+
+.custom_icon{
+  color: white !important;
+  width: 30px;
+  height: 30px;
+}

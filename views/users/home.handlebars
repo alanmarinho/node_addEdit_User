@@ -1,0 +1,17 @@
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+{{> navbar}}
+<div class="container d-flex align-items-center justify-content-center flex-column ">
+  {{#if message}}
+  <div class="alert alert-success m-3" role="alert">
+    {{message}}
+  </div>
+  {{/if}}
+
+  <div class="container d-flex flex-column align-items-center justify-content-center p-3">
+    <h1>Cadastro simples de usuário</h1>
+    <p>Node + Handlebars</p>
+    <a href="/add" class="btn btn-success m-1">Adicionar Usuário</a>
+    <a href="/allUsers" class="btn btn-info m-1">Todos os Usuários</a>
+  </div>
+
+</div>
