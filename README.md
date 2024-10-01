@@ -10,7 +10,7 @@ Simple design to add edit and remove users
 
 - Clone the repository
 ```bash
-git clone ...
+git clone https://github.com/alanmarinho/node_addEdit_User.git
 ```
 
 - Create a data base in mysql with the name "nodeproject"
